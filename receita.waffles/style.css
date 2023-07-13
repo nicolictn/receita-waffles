@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    color: #39393A;
+}
+
+#container { 
+    position: relative;
+    max-width: 1024px; 
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 32px auto;
+    
+  
+}
+
+/*imagem representação*/
+h1{
+    color: #1B1B1B;
+    text-align: center;
+    padding: 50px;
+}
+
+.recipe-image{
+    text-align: center;
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.recipe-image img {
+    width: 40%;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*ingredientes e modo de preparo*/
+
+.steps {
+    margin: 0 auto;
+    width: 95%;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    list-style-position: inside; 
+}
+
+li{
+    color: #39393A;
+    font-size: 16px;
+    
+}
+
+h2{
+    color: #1B1B1B;
+    font-size: 20px;
+    margin: 24px;
+    text-align: center;
+}
+
+.additional {
+    padding-bottom: 16px;
+}
+
+/*FOOTER- RODAPÉ*/
+
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 10px;
+    color: #8F8F8F;
+}
